@@ -2,15 +2,6 @@
 
 Serves as a bridge that translates the JIRA webhooks into Teams webhooks.
 
-## Configuration
-
-Set the following environment variables to provide the Teams server details:
-
-* TEAMS_SERVER_PORT - Default: 80
-* TEAMS_SERVER_PATH - Default: /hooks/<incoming hookid base64>
-* TEAMS_SERVER_PROTO - Default: http
-* TEAMS_SERVER - Default: localhost
-
 ## Integration
 
 * Install the required modules by running `npm install`
