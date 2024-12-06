@@ -30,6 +30,7 @@ jobs:
         with:
           context: .
           push: true
+          platforms: linux/amd64,linux/arm64
           tags: vrenjith/jira-teams-bridge:latest
 
       - name: Log out from Docker Hub
